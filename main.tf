@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "RG1" {
 
 resource "azurerm_resource_group" "RG2" {
   name     = "papaya-rg2"
-  location = "West Europe" 
+  location = "centralindia" 
 } 
 resource "azurerm_resource_group" "RG3" {
   name     = "papaya-rg3"
