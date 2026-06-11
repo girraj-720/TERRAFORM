@@ -1,6 +1,6 @@
 stgs = {
     stg10001 = {
-        rg_name = "rg1"
+        rg_name = "rg11"
         location = "westus"
         atier = "Standard"
         art = "LRS"

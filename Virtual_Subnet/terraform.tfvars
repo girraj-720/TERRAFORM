@@ -1,14 +1,14 @@
 subnets = {
-    subnet1 = {
+    subnet21 = {
         name = "frontend-subnet"
-        rg_name = "rg1"
-        vnet_name = "vnet1"
-        address_prefixes = ["10.0.1.0/24"]
+        resource_group_name = "rg11"
+        virtual_network_name = "vnet21"
+        address_prefixes = ["10.120.1.0/24"]
     }
-     subnet2 = {
+     subnet22 = {
         name = "backend-subnet"
-        rg_name = "rg2"
-        vnet_name = "vnet2"
-        address_prefixes = ["10.0.2.0/24"]
+        resource_group_name = "rg2"
+        virtual_network_name = "vnet22"
+        address_prefixes = ["10.121.2.0/24"]
     }
 }

@@ -1,6 +1,6 @@
 rgs = {
 
-    rg1 ={
+    rg11 ={
 
         name = "Girraj-rg"
         location = "westus"
