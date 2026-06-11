@@ -1,0 +1,38 @@
+vms = {
+    "windows-vm1" = {
+        name = "frontend-vm1"
+        location = "westus"
+        rg_name = "rg1"
+        nic_id = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Network/networkInterfaces/myNic"
+        vm_size = "Standard_DS1_v2"
+        publisher = "Canonical"
+        offer     = "0001-com-ubuntu-server-jammy"
+        sku       = "22_04-lts"
+        version   = "latest"
+        name              = "disk1"
+        caching           = "ReadWrite"
+        create_option     = "FromImage"
+        managed_disk_type = "Standard_LRS"
+        computer_name  = "hostname"
+        admin_username = "testadmin"
+        admin_password = "Password1234"
+    }
+    "linux-vm2" = {
+        name = "backend-vm2"
+        location = "westus"
+        rg_name = "rg2"
+        nic_id = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg2/providers/Microsoft.Network/networkInterfaces/myNic"
+        vm_size = "Standard_DS1_v2"
+        publisher = "Canonical"
+        offer     = "0001-com-ubuntu-server-jammy"
+        sku       = "22_04-lts"
+        version   = "latest"
+        name              = "disk2"
+        caching           = "ReadWrite"
+        create_option     = "FromImage"
+        managed_disk_type = "Standard_LRS"
+        computer_name  = "hostname"
+        admin_username = "testadmin"
+        admin_password = "Password1234"
+    }
+}
